@@ -1,0 +1,24 @@
+/* CSS DOCUMENT */
+@charset "utf-8"
+
+@font-face {
+    font-family: 'adele italic';
+    src: url(type/AdelleSansEXT-Italic.ttf) format(.ttf);
+    font-weight: normal;
+    font-size: italic;
+}
+
+@font-face {
+    font-family: 'adele regular';
+    src: url(type/AdelleSansEXT-Regular.ttf);
+    font-weight: normal;
+    font-size: italic;
+}
+
+h1{
+    font-family: 'adele italic', 'Courier New', Courier, monospace
+}
+h2{
+    font-family: 'adele regular','Courier New', Courier, monospace
+}
+
