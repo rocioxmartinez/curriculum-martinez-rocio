@@ -1,24 +1,63 @@
-/* CSS DOCUMENT */
-@charset "utf-8"
+@charset "UTF-8";
+
+/*Fuentes*/
 
 @font-face {
-    font-family: 'adele italic';
-    src: url(type/AdelleSansEXT-Italic.ttf) format(.ttf);
+    font-family: "Adelle Sans Regular";
+    src: url(type/AdelleSansEXT-Regular.ttf) format(ttf); 
     font-weight: normal;
-    font-size: italic;
+    font-size: normal;
 }
 
 @font-face {
-    font-family: 'adele regular';
-    src: url(type/AdelleSansEXT-Regular.ttf);
-    font-weight: normal;
-    font-size: italic;
+    font-family: "Adelle Sans Bold";
+    src: url(type/AdelleSansEXT-Bold.ttf) format(ttf);
+    font-weight: bold;
+    font-style: normal;
 }
 
-h1{
-    font-family: 'adele italic', 'Courier New', Courier, monospace
+@font-face {
+    font-family: "Adelle Sans Italic";
+    src: url(type/AdelleSansEXT-Italic.ttf) format(ttf);
+    font-weight: normal;
+    font-style: italic;
 }
+
+*{ /*No me esta tomando las tipografias! solo el sans serif*/
+    font-family: 'Adelle Sans Regular', sans-serif; 
+    font-size: 2,5rem;
+    text-wrap-style: balance; /*si pongo el text wrap después del backgroud color me aparece tachado, por qué?*/
+
+}
+
+body{
+    background-color: rgb(248, 206, 238);
+}
+
+/*Aplicaciones*/
+
+h1 {
+    font-family: "Adelle Sans Bold", sans-serif;
+    font-size: 3rem;
+    line-height: 5rem;
+}
+
+h2, h3 {
+    font-family: 'Adelle Sans italic', sans-serif;
+    font-size: 1,4rem; 
+}
+
 h2{
-    font-family: 'adele regular','Courier New', Courier, monospace
+    font-size: 2rem;
 }
+
+h1, h2, h3 
+{
+color: rgb(226, 43, 150);
+}
+
+#hiro{
+    background-color: antiquewhite;
+}
+
 
