@@ -4,33 +4,37 @@
 
 @font-face {
     font-family: "Adelle Sans Regular";
-    src: url(type/AdelleSansEXT-Regular.ttf) format(ttf); 
+    src: url(type/AdelleSansEXT-Regular.ttf) format(truetype);
     font-weight: normal;
     font-size: normal;
 }
 
 @font-face {
     font-family: "Adelle Sans Bold";
-    src: url(type/AdelleSansEXT-Bold.ttf) format(ttf);
+    src: url(type/AdelleSansEXT-Bold.ttf) format(truetype);
     font-weight: bold;
     font-style: normal;
 }
 
+
 @font-face {
     font-family: "Adelle Sans Italic";
-    src: url(type/AdelleSansEXT-Italic.ttf) format(ttf);
+    src: url(type/AdelleSansEXT-Italic.ttf) format(truetype);
     font-weight: normal;
     font-style: italic;
 }
 
-*{ /*No me esta tomando las tipografias! solo el sans serif*/
-    font-family: 'Adelle Sans Regular', sans-serif; 
-    font-size: 2,5rem;
-    text-wrap-style: balance; /*si pongo el text wrap después del backgroud color me aparece tachado, por qué?*/
-
+* {
+    font-family: 'Adelle Sans Regular', sans-serif;
+    font-size: 2, 5rem;
+    text-wrap-style: balance;
+    margin: 7px;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
 }
 
-body{
+body {
     background-color: rgb(248, 206, 238);
 }
 
@@ -42,22 +46,43 @@ h1 {
     line-height: 5rem;
 }
 
-h2, h3 {
+h2,
+h3 {
     font-family: 'Adelle Sans italic', sans-serif;
-    font-size: 1,4rem; 
+    font-size: 1.4rem;
 }
 
-h2{
+h2 {
     font-size: 2rem;
 }
 
-h1, h2, h3 
-{
-color: rgb(226, 43, 150);
+h1,
+h2,
+h3,
+footer {
+    color: rgb(226, 43, 150);
 }
 
-#hiro{
+#hiro {
     background-color: antiquewhite;
+    /*aunque ponga border box, al ajustar el padding sigue creciendo el tamaño del bakcground*/
 }
 
+footer {
+    font-family: "Adelle Sans Regular", sans-serif;
+    font-size: 1rem;
+}
+
+#info,
+footer {
+    padding: 29px 101px 94px 94px;
+    min-width: 360px;
+    max-width: 700px;
+}
+
+nav {
+    font-size: 0.8rem;
+    display: flex;
+    gap: 44px;
+}
 
