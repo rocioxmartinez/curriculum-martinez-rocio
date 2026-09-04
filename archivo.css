@@ -6,7 +6,7 @@
     font-family: "Adelle Sans Regular";
     src: url(type/AdelleSansEXT-Regular.ttf) format(truetype);
     font-weight: normal;
-    font-size: normal;
+    font-style: normal;
 }
 
 @font-face {
@@ -26,9 +26,9 @@
 
 * {
     font-family: 'Adelle Sans Regular', sans-serif;
-    font-size: 2, 5rem;
+    font-size: 1rem;
     text-wrap-style: balance;
-    margin: 7px;
+    margin: 15px;
     padding: 0;
     border: 0;
     box-sizing: border-box;
@@ -43,11 +43,12 @@ body {
 h1 {
     font-family: "Adelle Sans Bold", sans-serif;
     font-size: 3rem;
-    line-height: 5rem;
+    line-height: 3rem;
 }
 
 h2,
-h3 {
+h3,
+h4 {
     font-family: 'Adelle Sans italic', sans-serif;
     font-size: 1.4rem;
 }
@@ -65,17 +66,28 @@ footer {
 
 #hiro {
     background-color: antiquewhite;
-    /*aunque ponga border box, al ajustar el padding sigue creciendo el tamaño del bakcground*/
+    line-height: 1rem;
+    height: 10rem;
+    box-sizing: border-box;
 }
 
 footer {
     font-family: "Adelle Sans Regular", sans-serif;
     font-size: 1rem;
+    box-sizing: border-box;
+    height: 7rem;
+    padding: 0.1rem 0rem 0rem 0rem;
+    background-color: antiquewhite;
+    margin: 0rem 0rem 1rem 20rem 
+}
+
+ul {
+    line-height: 0.6rem;
+    list-style: circle;
 }
 
 #info,
 footer {
-    padding: 29px 101px 94px 94px;
     min-width: 360px;
     max-width: 700px;
 }
@@ -86,3 +98,15 @@ nav {
     gap: 44px;
 }
 
+#hiro,
+#info {
+    display: flex;
+}
+
+
+
+h4 {
+    font-size: 1rem;
+    color: blueviolet;
+    width: 13rem;
+}
