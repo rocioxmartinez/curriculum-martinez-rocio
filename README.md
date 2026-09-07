@@ -1,0 +1,7 @@
+Hola! 
+Desde el principio en mi trabajo me concentré en hacer un CV tradicional y lo que me pareció indispensable era hacerlo a dos columnas y capas por el tamaño de la pantalla al ser tan horizontal también tome en cuenta el que predomine la composición en el margen izquierdo, en un momento me quedo demasiado al costado así que para la entrega final agrande el tamaño de las cajas de texto y quedo más compensado. 
+La parte HTML me resulto fácil, la CSS más difícil pero divertida y flexbox todavía no le agarro la mano. 
+Logré dividir la página en dos columnas, que estaba esperando para hacerlo desde el día que soltaron el TP. Logré hacer saltos de línea (<br>), capas era fácil pero yo lo había pasado por alto y pensé que no había solución y casi entrego el tp sin usarlo.
+Me gusta mucho la opción de modificar una parte pequeña de un parrafo con style, pero cuando lo uso me queda con un espacio y queda desordenado, se nota en donde puse los colores y no lo pude solucionar. Quería usar esta propiedad para resaltar jerarquías en los párrafos pero no pude por este problema. 
+Me costó muchísimo flexbox, una vez separada la columna, lo ideal hubiera sido poder alinear los elementos que estaban uno al lado del otro, pero no supe como, todo lo que estaba en la columna solo podía interactuar con los contenedores que estaban en la misma columna. 
+No pude hacer muchas cosas como Justify, flexbox wraped, seguro tenía algo raro en el margen, padding u otra etiqueta que me lo anulaba pero no tuve el tiempo para solucionarlo.
