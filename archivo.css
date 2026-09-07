@@ -28,7 +28,7 @@
     font-family: 'Adelle Sans Regular', sans-serif;
     font-size: 1rem;
     text-wrap-style: balance;
-    margin: 15px;
+    margin: 20px;
     padding: 0;
     border: 0;
     box-sizing: border-box;
@@ -60,8 +60,8 @@ h2 {
 h1,
 h2,
 h3,
-footer {
-    color: rgb(226, 43, 150);
+h5 {
+    color: #e22b96;
 }
 
 #hiro {
@@ -72,13 +72,9 @@ footer {
 }
 
 footer {
-    font-family: "Adelle Sans Regular", sans-serif;
-    font-size: 1rem;
-    box-sizing: border-box;
     height: 7rem;
     padding: 0.1rem 0rem 0rem 0rem;
-    background-color: antiquewhite;
-    margin: 0rem 0rem 1rem 20rem 
+
 }
 
 ul {
@@ -86,16 +82,19 @@ ul {
     list-style: circle;
 }
 
-#info,
-footer {
-    min-width: 360px;
-    max-width: 700px;
+
+#info {
+    width: 500px;
+    height: 800px;
+    align-items: center;
+
 }
 
 nav {
     font-size: 0.8rem;
     display: flex;
     gap: 44px;
+    color: #e22b96;
 }
 
 #hiro,
@@ -109,4 +108,27 @@ h4 {
     font-size: 1rem;
     color: blueviolet;
     width: 13rem;
+}
+
+.estudioytrabajo p {
+    height: 148px;
+    margin: 1px;
+    /*Agregué 1px de margin en ambos divisores porque al darles valor de height se me desfasaba con los h3*/
+}
+
+.sobremi p {
+    width: 800px;
+    height: 198px;
+    margin: 1px;
+}
+
+h5 {
+    font-size: 1.5rem;
+    background-color: antiquewhite;
+    height: 80px;
+    padding: 15px 0 0 25px;
+}
+
+#segundo {
+    gap: 117px;
 }
