@@ -1,0 +1,83 @@
+/* CSS DOCUMENT */
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Bebas Neue";
+    src: url(fuentes/BebasNeue-Regular.ttf) format(truetypefont);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat regular";
+    src: url(fuentes/Montserrat-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Montserrat Italic";
+    src: url(fuentes/Montserrat-Italic.ttf) format(truetype);
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: "Montserrat Bold";
+    src: url(fuentes/Montserrat-Bold.ttf) format(truetype);
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    background-color: #FFFCEE;
+    text-align: center;
+    margin: 20;
+    padding: 0;
+    text-wrap: balance;
+    box-sizing: border-box;
+}
+h1 {
+    font-family: 'Montserrat Bold';
+    font-size: 2rem;
+    color: #FF0000;
+}
+
+h2 {
+font-family: 'Montserrat Italic';
+font-size: 1rem;
+color: #FF0000;
+}
+
+p,
+ul
+ {
+    font-family: 'Montserrat Regular';
+    font-size: 0.8rem;
+}
+
+#sobremi {
+font-family: "Montserrat Italic";
+font-size: 0.8rem;
+}
+
+nav {
+    background-color: #121412;
+    font-family: "Montserrat Regular";
+    Font-size: 0.8rem;
+    color: #FFFCEE;
+}
+
+#bienvenida {
+    min-height: 300px
+}
+
+#sobremi {
+    display: flex;
+  justify-content: space-evenly;
+}
+
+#sobremiinfo {
+    text-align: right; /*ya comprendi que no me lo toma por la propiedad de text align:center que puse antes, pero no entiendo por qué si este sistema es en cascada y esta propeidad nueva deberia anular las anteriores*/
+}
