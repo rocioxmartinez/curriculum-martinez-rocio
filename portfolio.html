@@ -9,19 +9,61 @@
 
 <body>
     <header>
-            <video src="Video/portfolio-animation.mp4" controls autoplay loop
-            width="1280" height="720"> <!no puedo hacer el video responsive aunque le ponga min o max, probe sacando el width y height, tampoco se como hacer para que no aparezca la barrita de tiempo y opcion de pausar cuando se toca el video en la página>
-        </video>
+        <header>
+            <nav id="navportfolio">
+                <a href="portfolio.html">portfolio</a>
+                <a href="sobremi.html">sobre mi</a>
+                <a href="accion.html">trabajos</a>
+            </nav>
+        </header>
+        <section id="hiro">
+            <video src="Video/haciendo-un-poco-de-mucho.mp4" controls autoplay width="1920" height="1080">
+            </video>
+        </section>
     </header>
     <main>
-        <article id="bienvenida">
-        <h1>Buscándole la quinta pata al gato</h1>
-        <p>Sobreanalizando, probando mil distintas soluciones a un mismo problema, ajustando detalles invisibles o,
-            como chamuyarian en una entrevista de trabajo normal, soy muy perfeccionista.</h2>
-        <section id="sobremi">
-            <a href="sobremi.html" <h2> Sobre mi</h2>
+        <class id="portfolio">
+            <article id="bienvenida">
+                <h1>Buscándole la quinta pata al gato</h1>
+                <p>Sobreanalizando, probando mil distintas soluciones a un mismo problema, ajustando detalles invisibles
+                    o,
+                    como chamuyarian en una entrevista de trabajo normal, soy muy perfeccionista.</h2>
+                <section id="sobremi">
+                    <a href="sobremi.html">
+                        <p> Sobre mi</p>
+                    </a>
+                </section>
+            </article>
+
+            <section id="trabajos">
+                <h2>Diseño de identidad</h2>
+                <article id="identidad">
+                    <img src="Imagenes/packagings.png" alt="lata de bebida energizante" ; height="191px" width="290px">
+                    <img src="Imagenes/podaliria-etiqueta.png" alt="etiqueta de ropa" ; height="191" width="290">
+                    <img src="Imagenes/encuentrocultural.png" alt="encuentro cultural" ; height="191" width="290">
+                </article>
+
+                <h2>Diseño editorial</h2>
+                <article id="editorial">
+                    <img src="Imagenes/anuarios2.png" alt="Anuarios de la UNLa" ; height="191" width="290">
+                    <img src="Imagenes/coleccion-mockup-uno.png" alt="Colección de libros" ; height="191" width="290">
+                    <img src="Imagenes/mundode7pocos.png" alt="libro mundode 7 pozos" ; height="191" width="290">
+                </article>
+            </section>
+        </class>
+    </main>
+    <footer>
+        <section>
+            <a href="https://www.instagram.com/haciendounpocodemucho/">
+                <img src="Imagenes/instagram.png" alt="instagram" height="20px" width="20px">
+            </a>
+            <a href="https://www.behance.net/rocomartinez4">
+                <img src="Imagenes/behance_Mesa de trabajo 1.png" alt="behance" height="20px" width="20px">
             </a>
         </section>
-        </article>
-    </main>
+        <section>
+            <a>Buenos Aires, Argentina</a>
+        </section>
+    </footer>
 </body>
+</html>
