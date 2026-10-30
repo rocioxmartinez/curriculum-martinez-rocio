@@ -1,10 +1,7 @@
-<h1>Entrega TP1</h1> 
+<h1>Entrega TP3</h1> 
 
 Hola! 
-Desde el principio en mi trabajo me concentré en hacer un CV tradicional y lo que me pareció indispensable era hacerlo a dos columnas y capas por el tamaño de la pantalla al ser tan horizontal también tome en cuenta el que predomine la composición en el margen izquierdo, en un momento me quedo demasiado al costado así que para la entrega final agrande el tamaño de las cajas de texto y quedo más compensado. <br>
-<i>La parte HTML me resulto fácil, la CSS más difícil pero divertida y flexbox todavía no le agarro la mano.</i> <br>
-Logré dividir la página en dos columnas, que estaba esperando para hacerlo desde el día que soltaron el TP. Logré hacer saltos de línea (<¨*br*>), capas era fácil pero yo lo había pasado por alto y pensé que no había solución y casi entrego el tp sin usarlo.
-Me gusta mucho la opción de modificar una parte pequeña de un párrafo con style, pero cuando lo uso me queda con un espacio y queda desordenado, se nota en donde puse los colores y no lo pude solucionar. Quería usar esta propiedad para resaltar jerarquías en los párrafos pero no pude por este problema. <br>
-Me costó muchísimo flexbox, una vez separada la columna, lo ideal hubiera sido poder alinear los elementos que estaban uno al lado del otro, pero no supe como, todo lo que estaba en la columna solo podía interactuar con los contenedores que estaban en la misma columna. <br>
-No pude hacer muchas cosas como Justify, flexbox wraped, seguro tenía algo raro en el margen, padding u otra etiqueta que me lo anulaba pero no tuve el tiempo para solucionarlo. También llegó un punto en que si abria el archivo con firefox se desarma y las cosas del pie de página e información se pisan, mientras que con chrome y edge se ve bien. <br>
-<i>Lo hice con Visual Studio Code en una pantalla de 1366x768.
+Hice este portfolio con Visual Studio Code en una pantalla de 1366x768.
+Lo que más me interesaba aprender era hacer distintas páginas dentro de una misma web así que realice bastantes, el trabajo esta dividido en inicio/sobre mi/trabajos y al entrar a trabajos accedes a otra seccion de galeria de imagenes e información con distinto nav.
+Dentro del trabajo en la página de sobre "mi" y "accion" las < p > y el < nav > se ve más grande, aunque comparten la misma etiqueta que todas las páginas, no supe encontrar el problema. Tampoco puede volver responsive a las imagenes más grandes de las seccion trabajos, podia lograrlo al ponerle width y height del 100% pero afectaba tambien a la flecha que redirecciona hacia el inicio porque ambas imagenes comparten posición.
+Para usar la etiqueta form segui todos los pasos del video y me parece buenisima pero poco eficiente que el predeterminado que se abra sea yahoo y dentro del mensaje queden los títulos de (Mensaje: Nombre:) no se si es algo que pueda resolverse de otra manera o ya es algo de programación.
