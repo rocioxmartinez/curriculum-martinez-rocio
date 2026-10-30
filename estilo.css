@@ -2,21 +2,21 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: "Bebas Neue";
-    src: url(fuentes/BebasNeue-Regular.ttf) format(truetypefont);
+    font-family: 'Bebas Neue';
+    src: url(fuentes/BebasNeue-Regular.ttf) format(truetype);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Montserrat regular";
+    font-family: 'Montserrat regular';
     src: url(fuentes/Montserrat-Regular.ttf) format(truetype);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Montserrat Italic";
+    font-family: 'Montserrat Italic';
     src: url(fuentes/Montserrat-Italic.ttf) format(truetype);
     font-weight: normal;
     font-style: italic;
@@ -24,20 +24,23 @@
 }
 
 @font-face {
-    font-family: "Montserrat Bold";
+    font-family: 'Montserrat Bold';
     src: url(fuentes/Montserrat-Bold.ttf) format(truetype);
     font-weight: bold;
     font-style: normal;
 }
 
 * {
-    background-color: #FFFCEE;
-    text-align: center;
-    margin: 20;
+    margin: 0;
     padding: 0;
     text-wrap: balance;
     box-sizing: border-box;
 }
+
+main {
+    background-color: #FFFCEE;
+}
+
 h1 {
     font-family: 'Montserrat Bold';
     font-size: 2rem;
@@ -45,27 +48,52 @@ h1 {
 }
 
 h2 {
-font-family: 'Montserrat Italic';
-font-size: 1rem;
-color: #FF0000;
+    font-family: 'Montserrat Italic';
+    font-size: 1.5rem;
+    color: #FF0000;
 }
 
-p,
-ul
- {
+p {
     font-family: 'Montserrat Regular';
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
-#sobremi {
-font-family: "Montserrat Italic";
-font-size: 0.8rem;
-}
-
-nav {
+.navportfolio {
     background-color: #121412;
-    font-family: "Montserrat Regular";
-    Font-size: 0.8rem;
+    font-family: 'Montserrat Regular';
+    Font-size: 1rem;
+    height: 42px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 80px;
+    padding-left: 30px;
+}
+
+.galeria {
+    font-family: 'Montserrat Regular';
+    Font-size: 1rem;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #FFFCEE;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.galeria div {
+    display: flex;
+    gap: 24px;
+}
+
+.galeria a {
+    color: #FF0000;
+
+}
+
+nav a {
     color: #FFFCEE;
 }
 
@@ -73,11 +101,227 @@ nav {
     min-height: 300px
 }
 
-#sobremi {
+footer {
+    background-color: #121412;
+    font-family: 'Montserrat Regular';
+    Font-size: 1rem;
+    color: #FFFCEE;
+    height: 42px;
     display: flex;
-  justify-content: space-evenly;
+    align-items: center;
+    gap: 80px;
+    padding-left: 30px;
+    justify-content: space-between;
+    padding-right: 30px;
 }
 
-#sobremiinfo {
-    text-align: right; /*ya comprendi que no me lo toma por la propiedad de text align:center que puse antes, pero no entiendo por qué si este sistema es en cascada y esta propeidad nueva deberia anular las anteriores*/
+
+.softwares {
+    text-align: left;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+.bienvenida {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    padding: 80px;
+    text-align: center;
+}
+
+.bienvenida p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.trabajos h2 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.trabajos {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.identidad,
+.editorial {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.editorial {
+    padding-bottom: 80px;
+}
+
+.accion h1 {
+    padding-bottom: 10px;
+}
+
+.accion {
+    text-align: center;
+    padding: 10px
+}
+
+.imagenes {
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.hiroaccion {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.hiroaccion img:first-child {
+    position: absolute;
+    top: 5px;
+    left: 85px;
+}
+
+.mainaccion {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding-top: 70px;
+}
+
+.hiroaccion {
+    height: 100%;
+    width: 100%; /*intente esto para volver responsive el hiro pero no pude*/
+}
+
+
+.softwares {
+    font-family: 'Montserrat Italic';
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.mainsobremi {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+main h1 {
+    text-align: center;
+}
+
+#yo {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.trabajemos {
+    padding-bottom: 80px;
+    padding-top: 80px;
+    text-align: center;
+}
+
+
+
+form {
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: 'Montserrat Regular';
+}
+
+
+
+
+input {
+    align-self: flex-end;
+    background: none;
+    border: none;
+    color: #FF0000;
+    font-family: 'Montserrat Regular';
+
+}
+
+#proyecto {
+    height: 87px;
+    border: 1px solid red;
+    background: transparent;
+    margin-bottom: 20px;
+    resize: vertical;
+}
+
+#Nombre,
+#Email {
+    align-self: normal;
+    height: 30px;
+    border: 1px solid red;
+    background: transparent;
+    margin-bottom: 30px;
+}
+
+.Ecos {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 50px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .navportfolio {
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        height: 200px;
+        gap: 10px;
+        justify-content: space-evenly;
+
+    }
+
+    .galeria {
+        justify-content: center;
+        height: 80px;
+    }
+
+    #trabajoeditorial {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        align-items: center;
+        position: relative;
+        padding: 80px;
+    }
+
+    #trabajoidentidad {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        gap: 6px;
+        align-items: center;
+    }
+
+    .imagenes,
+    .identidad,
+    .editorial {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+    }
+
 }

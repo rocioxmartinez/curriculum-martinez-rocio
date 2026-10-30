@@ -9,29 +9,31 @@
 
 <body>
     <header>
-        <nav id="navportfolio">
+        <nav class="navportfolio">
             <a href="index.html">index</a>
             <a href="sobremi.html">sobre mi</a>
             <a href="accion.html">trabajos</a>
         </nav>
     </header>
     <main>
-        <class id="mainsobremi">
-            <section id="hero">
-                <h1>yo, rocío martinez</h1>
-            </section>
-            <article id=sobremi>
-                <section id=imagensobremi>
-                    <img src="Imagenes/rocio.png" height=284 width="176" alt="Foto de Rocio">
-                </section>
-                <section id=softwares>
-                    <h2>Sobre mi</h2>
+        <div id="yo">
+            <h1>yo, rocío martinez</h1>
+        </div>
+        <section class="mainsobremi">
+            <article class=imagensobremi>
+                <img src="img/rocio.png" height="284px" width="176px" alt="Foto de Rocio">
+            </article>
+            <article class="softwares">
+                <h2>Sobre mi</h2>
+                <div>
                     <p>Diseñadora Gráfica</p>
                     <p>24 años</p>
                     <p>Diseñando laboralmente desde 2020</p>
                     <p>Diseñando por hobbie desde 2006</p>
+                </div>
 
-                    <h2>Sofwares</h2>
+                <h2>Sofwares</h2>
+                <div>
                     <ul>
                         <li>Illustrator</li>
                         <li>Photoshop</li>
@@ -40,48 +42,43 @@
                         <li>Figma</li>
                         <li>HTML</li>
                     </ul>
-                </section>
+                </div>
             </article>
-        </class>
-                <class id="maintrabajemos">
-            <article id="titulotrabajemos">
-                <h1>trabajemos juntos</h1>
-            </article>
+        </section>
+        <section class="trabajemos">
+            <h2>Trabajemos juntos</h2>
             <form method="post" action="mailto:ro.martinez2560@gmail.com?subject=email enviado desde el formulario"
                 target="_blank" enctype="text/plain">
-                <section id="nombre">
-                    <label for="Nombre"> Nombre:</label>
-                    <input type="text" name="Nombre" id="Nombre" maxlength="30">
-                </section>
-                <section id="Email">
-                    <label for="Email"> Email:</label>
-                    <input type="text" name="Email" id="Email" maxlength="30">
-                </section>
-                <section id="Proyecto">
-                    <Label for="proyecto">Proyecto</Label>
-                    <textarea name="proyecto" id="proyecto"></textarea>
-                </section>
-                <section id="submit">
-                    <input type="submit">
-                </section>
+
+                <label for="Nombre"> Nombre:</label>
+                <input type="text" name="Nombre" id="Nombre" maxlength="30">
+
+                <label for="Email"> Email:</label>
+                <input type="text" name="Email" id="Email" maxlength="30">
+
+                <Label for="proyecto">Proyecto</Label>
+                <textarea name="proyecto" id="proyecto"></textarea>
+
+                <input type="submit">
+
             </form>
-        </class>
+        </section>
     </main>
-  
+
     <footer>
-        <section>
+        <div>
             <a href="https://www.instagram.com/haciendounpocodemucho/">
-                <img src="Imagenes/instagram.png" alt="instagram" height="20px" width="20px">
+                <img src="img/instagram.png" alt="instagram" height="20px" width="20px">
             </a>
             <a href="https://www.behance.net/rocomartinez4">
-                <img src="Imagenes/behance_Mesa de trabajo 1.png" alt="behance" height="20px" width="20px"> 
+                <img src="img/behance_Mesa de trabajo 1.png" alt="behance" height="20px" width="20px">
             </a>
-        </section>
-        <section>
-            <a>Buenos Aires, Argentina</a>
-        </section>
+            <a href="https://mail.google.com/mail/u/0/#inbox">
+                <img src="img/gmail_Mesa de trabajo 1.png" alt="mail" height="20px" width="20px">
+            </a>
+        </div>
+        <a>Buenos Aires, Argentina</a>
     </footer>
-
 </body>
 
 </html>
